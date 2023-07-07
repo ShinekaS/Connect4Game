@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect 4</title>
+    
+    <link rel="stylesheet" href="Connect4.CSS">
+    <script src="Connect4.js"></script>
+</head>
+
+<body>
+    <header style="background-color: rgba(255, 255, 255, 0.779);">
+        <h1 style="color: blue;">Connect 4</h1>
+    </header>
+
+    <style>
+        body {
+            background-image: url('images/gamenight.jpg');
+            /* background-repeat: no-repeat; */
+            background-color: rgba(45, 191, 244, 0.329);
+            background-size: auto;
+        }
+    </style>
+
+    <h2 id="winner"></h2>
+    <div id="board"></div>
+
+    <div id="backgroundMusicWrapper">
+        <audio controls autoplay id="backgroundMusic" src="Music/WannaBeStartin'Somethin'.mp3"></audio>
+    </div>
+
+    <button onclick="resetGame()">Play Again!</button>
+
+</body>
+
+</html>
